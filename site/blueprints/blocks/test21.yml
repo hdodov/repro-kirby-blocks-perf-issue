@@ -1,0 +1,20 @@
+tabs:
+  main:
+    fields:
+      text: true
+      textarea: true
+      line: true
+      files: true
+      structure:
+        fields:
+          files: true
+          text: true
+  settings:
+    fields:
+      radio:
+        options:
+          - foo
+          - bar
+          - baz
+        columns: 3
+      toggle: true
